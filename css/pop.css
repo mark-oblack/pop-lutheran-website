@@ -1,6 +1,12 @@
 @charset "utf-8";
 
 /*===================================
+Google Fonts
+===================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+/*===================================
 Base Styles
 ===================================*/
 html, body {
@@ -10,8 +16,8 @@ html, body {
 
 body {
   display: block;
+  font-family: 'Open Sans', sans-serif;;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .wrapper {
@@ -23,15 +29,63 @@ body {
 /*===================================
 Home Page
 ===================================*/
+
+header {
+  margin-bottom: 15px;
+}
 .header-flex {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin: 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
 .headline {
   font-size: 3em;
+}
+
+.elca-logo {
+  width: 250px;
+}
+
+.info h1 {
+  font-size: 2em;
+  font-weight: 700;
   text-align: center;
 }
+
+
+
+/*===================================
+Footer Styles
+===================================*/
+
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.icon-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fab {
+  font-size: 2em;
+  margin: 0px 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -163,14 +217,15 @@ Navbar
 }
 
 #pop {
+  background-color: #426676;
+  color: #fff;
 	font-family: Georgia,Times,Times New Roman,serif;
-	color: #426676;
 }
 
 #Welcome {
 	position: relative;
   color: #F0D754;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
   text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
 }
 
@@ -204,7 +259,7 @@ Navbar
 #WhatsHappening {
 	position: relative;
   color: #F0D754;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
   text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
 }
 
@@ -238,7 +293,7 @@ Navbar
 #BeInvolved {
 	position: relative;
   color: #F0D754;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
   text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
 }
 
@@ -272,7 +327,7 @@ Navbar
 #ContactUs{
 	position: relative;
   color: #F0D754;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
   text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
 }
 
@@ -306,7 +361,7 @@ Navbar
 #Giving{
 	position: relative;
   color: #F0D754;
-  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  /*font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;*/
   text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
 }
 

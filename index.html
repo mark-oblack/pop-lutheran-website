@@ -21,6 +21,8 @@ Updated: 2/12/2018
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Prince of Peace Lutheran Church</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
 	<link rel="stylesheet" type="text/css" href="css/pop.css">
@@ -33,22 +35,24 @@ Updated: 2/12/2018
 		<![endif]-->
 </head>
 <body>
+<!-- Navigation -->
+<a id="popmenuLink" href="pop-menu-bar.html"></a>
+<!-- End Navigation -->
+
 <div class="wrapper">
+	<header class="row" id="pop">
+		<div class="header-flex">
+			<h1 class="headline">Prince of Peace Lutheran Church</h1>
+			<h2>Reverend Allyn Itterly, Pastor</h2>
+			<a href="https://www.elca.org/" target="_blank">
+				<img class="elca-logo" src="images/ELCA-LogoName.png" alt="ELCA">
+			</a>
+		</div>
+	</header>
 	<div class="container-fluid">
 		<div class="info col-md-6 col-lg-8 col-lg-offset-1">
-			<div class="row" id="pop">
-			<header>
-				<h1 class="headline">Prince of Peace Lutheran Church</h1>
-				<div class="header-flex">
-					<h2>Reverend Allyn Itterly, Pastor</h2>
-					<a href="https://www.elca.org/" target="_blank">
-						<img src="images/ELCA-LogoName.jpg" alt="ELCA">
-					</a>
-				</div>
-			</header>
-			</div>
-			<img src="images/ResurrectionGardenEmptyTomb.jpg" class="img-responsive" width="768" height="384" alt="Resurrection Garden Empty Tomb">
-			<h1><strong>SPOILER ALERT: The Tomb Is EMPTY!</strong></h1>
+			<img src="images/ResurrectionGardenEmptyTomb.jpg" class="img-responsive" alt="Resurrection Garden Empty Tomb">
+			<h1>SPOILER ALERT: The Tomb Is EMPTY!</h1>
 		</div>
 	</div>
 	<!-- Navigation -->
@@ -57,10 +61,10 @@ Updated: 2/12/2018
 	<section id="highlights" class="row">
 		<div class="col-lg-10 col-lg-offset-1">
 			<div class="row">
-				<br /><br /><br />
+				<!-- <br /><br /><br /> -->
 			    <article class="col-md-4"><img src="images/BreakingNews.gif" width="99" height="99" alt=""/>
 					<h2>SPOILER ALERT!</h2>
-					<p><strong>The Tomb Is Empty!</strong></p>
+					<p>The Tomb Is Empty!</p>
 					<p>HE IS RISEN! HE IS RISEN INDEED!</p>
 			<!-- 		<img src="images/SeasonOfLent.jpg"  width="200" height="99" alt="Season Of Lent"> -->
 				</article>
@@ -83,10 +87,20 @@ Updated: 2/12/2018
 		</div>
 	</section>
 	<footer>
-		<p>400 Old Clairton Road<br />Pittsburgh (Pleasant Hills), PA 15236<br />(412) 655-2168</p>
-		<a href="https://www.facebook.com/Prince-of-Peace-Lutheran-Church-Pleasant-Hills-PA-111156955661972/" target="_blank"><img src="images/Facebook.jpg" alt="Facebook"></a>
-		<a href="https://www.instagram.com/Prallyn/" target="_blank"><img src="images/Instagram.jpg" alt="Instagram"></a>
-		<a href="https://twitter.com/prallyn" target="_blank"><img src="images/Twitter.jpg" alt="Twitter"></a>
+		<div class="footer-flex">
+			<p>400 Old Clairton Road<br />Pittsburgh (Pleasant Hills), PA 15236<br />(412) 655-2168</p>
+			<div class="icon-flex">
+				<a href="https://www.facebook.com/Prince-of-Peace-Lutheran-Church-Pleasant-Hills-PA-111156955661972/" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+				<a href="https://www.instagram.com/Prallyn/" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+				<a href="https://twitter.com/prallyn" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</div>
+		</div>
 	</footer>
 </div>
 
