@@ -16,8 +16,12 @@ html, body {
 
 body {
   display: block;
-  font-family: 'Open Sans', sans-serif;;
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
+}
+
+body p {
+  font-weight: 400;
 }
 
 .wrapper {
@@ -33,6 +37,7 @@ Home Page
 header {
   margin-bottom: 15px;
 }
+
 .header-flex {
   display: flex;
   flex-direction: column;
@@ -45,6 +50,12 @@ header {
   font-size: 3em;
 }
 
+.subheadline {
+  font-size: 2em;
+  font-weight: 600;
+  text-align: center;
+}
+
 .elca-logo {
   width: 250px;
 }
@@ -53,6 +64,16 @@ header {
   font-size: 2em;
   font-weight: 700;
   text-align: center;
+}
+
+.home-icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.calendar {
+  display: block;
+  margin: 0 auto;
 }
 
 
@@ -65,6 +86,7 @@ Footer Styles
   display: flex;
   flex-direction: column;
   margin: 15px 0;
+  text-align: center;
 }
 
 .icon-flex {
@@ -74,8 +96,14 @@ Footer Styles
 }
 
 .fab {
+  color: #426676;
   font-size: 2em;
   margin: 0px 10px;
+}
+
+.fab:hover {
+  opacity: 0.75;
+  transition: ease 0.2s;
 }
 
 
@@ -435,6 +463,14 @@ IMG[SRC$="ColImage.jpg"] {
 .panel-body {
   background:#346f7e;
   color: #ffffff;
+}
+
+@media screen and (min-width:1000px) {
+  .info {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+  }
 }
 
 
