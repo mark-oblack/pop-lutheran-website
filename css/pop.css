@@ -41,13 +41,14 @@ header {
 .header-flex {
   display: flex;
   flex-direction: column;
-  margin: 10px 0;
+  margin: auto;
+  padding-bottom: 10px;
   text-align: center;
-  width: 100%;
+  width: 90%;
 }
 
 .headline {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 .subheadline {
@@ -58,6 +59,10 @@ header {
 
 .elca-logo {
   width: 250px;
+}
+
+.container-fluid {
+  margin-bottom: 20px;
 }
 
 .info h1 {
@@ -449,27 +454,65 @@ IMG[SRC$="ColImage.jpg"] {
   }
 }
 
+
+
+
+/*===================================
+Responsive CSS
+===================================*/
+
+@media screen and (min-width: 600px) {
+  .headline {
+    font-size: 2.8em;
+  }
+
+  .wrapper {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
 @media screen and (min-width:650px) and (max-width:959px){
   #Welcome h1 {
   	font-size: 2em;
   }
+
+  #feature {
+  	background-image: url(../images/BlueBackground.jpg);
+  	text-align: left;
+  }
+
+  .panel-body {
+    background:#346f7e;
+    color: #ffffff;
+  }
+
 }
 
-#feature {
-	background-image: url(../images/BlueBackground.jpg);
-	text-align: left;
-}
-
-.panel-body {
-  background:#346f7e;
-  color: #ffffff;
-}
-
-@media screen and (min-width:1000px) {
+@media screen and (min-width:960px) {
   .info {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
+  }
+
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .footer-flex p {
+    margin-bottom: 0px;
+  }
+
+  .icon-flex {
+    margin-top: auto;
   }
 }
 
