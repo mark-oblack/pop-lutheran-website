@@ -35,6 +35,8 @@ Home Page
 ===================================*/
 
 header {
+  background-color: #5F93A1;
+  margin-top: 60px;
   margin-bottom: 15px;
 }
 
@@ -101,7 +103,7 @@ Footer Styles
 }
 
 .fab {
-  color: #426676;
+  color: #5F93A1;
   font-size: 2em;
   margin: 0px 10px;
 }
@@ -125,9 +127,15 @@ Footer Styles
 /*===================================
 Navbar
 ===================================*/
+
+#popmenuLink {
+  width: 100%;
+}
+
 .navbar-default {
   background-color: #5F93A1;
-  border-color: #346f7e;
+  border: none;
+  /*border-color: #346f7e;*/
 }
 
 .navbar-logo {
@@ -250,7 +258,6 @@ Navbar
 }
 
 #pop {
-  background-color: #426676;
   color: #fff;
 	font-family: Georgia,Times,Times New Roman,serif;
 }
