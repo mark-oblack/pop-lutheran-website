@@ -8,8 +8,6 @@ var popmenuOptions = {
     license: "6c0l68"
 };
 
-var popmenu = new popmenu(popmenuOptions);
-
 /* Menucool Drop Down Menu v2015.10.26 Copyright www.menucool.com */
 function popmenu(k) {
     "use strict";
@@ -527,3 +525,5 @@ function popmenu(k) {
         }
     }
 }
+
+var popmenu = new popmenu(popmenuOptions);

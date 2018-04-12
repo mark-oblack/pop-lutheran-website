@@ -15,6 +15,7 @@ html, body {
 }
 
 body {
+  background-color: #fff;
   display: block;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
@@ -22,6 +23,14 @@ body {
 
 body p {
   font-weight: 400;
+}
+
+#pop {
+  color: #5F93A1;
+  font-family: Georgia,Times,Times New Roman,serif;
+  margin-top: 56px;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
 .wrapper {
@@ -33,13 +42,6 @@ body p {
 /*===================================
 Home Page
 ===================================*/
-
-header {
-  background-color: #5F93A1;
-  margin-top: 60px;
-  margin-bottom: 15px;
-}
-
 .header-flex {
   display: flex;
   flex-direction: column;
@@ -51,6 +53,7 @@ header {
 
 .headline {
   font-size: 2.5em;
+  margin-bottom: -5px;
 }
 
 .subheadline {
@@ -128,14 +131,11 @@ Footer Styles
 Navbar
 ===================================*/
 
-#popmenuLink {
-  width: 100%;
-}
-
-.navbar-default {
+.navbar {
   background-color: #5F93A1;
   border: none;
   /*border-color: #346f7e;*/
+  width: 100%;
 }
 
 .navbar-logo {
@@ -255,11 +255,6 @@ Navbar
     position: relative;
     display: inline-block;
     cursor: pointer;
-}
-
-#pop {
-  color: #fff;
-	font-family: Georgia,Times,Times New Roman,serif;
 }
 
 #Welcome {
@@ -489,6 +484,10 @@ Responsive CSS
   	font-size: 2em;
   }
 
+  header {
+    margin-top: 50px;
+  }
+
   #feature {
   	background-image: url(../images/BlueBackground.jpg);
   	text-align: left;
@@ -502,10 +501,19 @@ Responsive CSS
 }
 
 @media screen and (min-width:960px) {
+
+  header {
+    margin-top: 45px;
+  }
+
   .info {
     display: block;
     margin: 0 auto;
     width: 70%;
+  }
+
+  .calendar-icon {
+    margin-bottom: 45px;
   }
 
   .footer-flex {
